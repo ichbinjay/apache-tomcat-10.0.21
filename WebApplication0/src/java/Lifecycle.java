@@ -8,6 +8,7 @@ public class Lifecycle implements Servlet{
     public void init(ServletConfig config){
         sc = config;
         System.out.print("init()");
+        System.out.println("ok");
     }
 
     @Override
