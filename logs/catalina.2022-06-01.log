@@ -1,0 +1,316 @@
+01-Jun-2022 14:03:24.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.21
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 10 2022 21:53:12 UTC
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.21.0
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_144\jre
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\logging.properties
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|vignan-PC
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21
+01-Jun-2022 14:03:24.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\temp
+01-Jun-2022 14:03:25.083 WARNING [main] org.apache.catalina.core.AprLifecycleListener.init The Apache Tomcat Native library failed to load. The error reported was [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\bin\tcnative-1.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform]
+	java.lang.UnsatisfiedLinkError: C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\bin\tcnative-1.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+		at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+		at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1941)
+		at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1824)
+		at java.lang.Runtime.load0(Runtime.java:809)
+		at java.lang.System.load(System.java:1086)
+		at org.apache.tomcat.jni.Library.<init>(Library.java:41)
+		at org.apache.tomcat.jni.Library.initialize(Library.java:203)
+		at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:203)
+		at org.apache.catalina.core.AprLifecycleListener.lifecycleEvent(AprLifecycleListener.java:134)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:135)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+01-Jun-2022 14:03:28.281 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+01-Jun-2022 14:03:28.375 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4103] milliseconds
+01-Jun-2022 14:03:28.453 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Jun-2022 14:03:28.453 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.21]
+01-Jun-2022 14:03:28.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication0.xml]
+01-Jun-2022 14:03:28.500 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication0] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication0.xml] has been ignored
+01-Jun-2022 14:03:28.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication0.xml] has finished in [514] ms
+01-Jun-2022 14:03:28.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml]
+01-Jun-2022 14:03:28.983 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+01-Jun-2022 14:03:29.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has finished in [32] ms
+01-Jun-2022 14:03:29.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\docs]
+01-Jun-2022 14:03:29.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\docs] has finished in [31] ms
+01-Jun-2022 14:03:29.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\examples]
+01-Jun-2022 14:03:30.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\examples] has finished in [1,029] ms
+01-Jun-2022 14:03:30.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\host-manager]
+01-Jun-2022 14:03:30.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\host-manager] has finished in [63] ms
+01-Jun-2022 14:03:30.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\manager]
+01-Jun-2022 14:03:30.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\manager] has finished in [31] ms
+01-Jun-2022 14:03:30.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\ROOT]
+01-Jun-2022 14:03:30.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\webapps\ROOT] has finished in [78] ms
+01-Jun-2022 14:03:30.247 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+01-Jun-2022 14:03:30.309 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1927] milliseconds
+01-Jun-2022 14:11:38.688 INFO [http-nio-8081-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] has started
+01-Jun-2022 14:11:38.718 INFO [http-nio-8081-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication1] is completed
+01-Jun-2022 14:11:40.778 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApplication1]
+01-Jun-2022 14:11:40.808 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/WebApplication1] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1542)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1505)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1744)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:316)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+		at java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+		at java.lang.Class.getDeclaredMethods(Class.java:1975)
+		at org.apache.catalina.util.Introspection.getDeclaredMethods(Introspection.java:121)
+		at org.apache.catalina.startup.WebAnnotationSet.loadMethodsAnnotation(WebAnnotationSet.java:285)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:138)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+		at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:332)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:989)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5084)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1449)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		... 30 more
+01-Jun-2022 14:11:59.758 INFO [http-nio-8081-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+01-Jun-2022 14:11:59.798 INFO [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml]
+01-Jun-2022 14:11:59.798 WARNING [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+01-Jun-2022 14:11:59.828 SEVERE [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:541)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1780)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:293)
+		at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+		at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1592)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:1027)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:358)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:661)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 44 more
+	Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+		at java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+		at java.lang.Class.getDeclaredMethods(Class.java:1975)
+		at org.apache.catalina.util.Introspection.getDeclaredMethods(Introspection.java:121)
+		at org.apache.catalina.startup.WebAnnotationSet.loadMethodsAnnotation(WebAnnotationSet.java:285)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:138)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+		at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:332)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:989)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5084)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 45 more
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1449)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		... 58 more
+01-Jun-2022 14:11:59.898 INFO [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has finished in [100] ms
+01-Jun-2022 14:12:02.818 INFO [http-nio-8081-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+01-Jun-2022 14:12:02.828 INFO [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml]
+01-Jun-2022 14:12:02.828 WARNING [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+01-Jun-2022 14:12:02.848 SEVERE [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:541)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1780)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:293)
+		at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+		at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1592)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:1027)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:358)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:668)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:661)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:378)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:56)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:867)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 44 more
+	Caused by: java.lang.NoClassDefFoundError: javax/servlet/http/HttpServletRequest
+		at java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+		at java.lang.Class.getDeclaredMethods(Class.java:1975)
+		at org.apache.catalina.util.Introspection.getDeclaredMethods(Introspection.java:121)
+		at org.apache.catalina.startup.WebAnnotationSet.loadMethodsAnnotation(WebAnnotationSet.java:285)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:138)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+		at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:332)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:989)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5084)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 45 more
+	Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1449)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		... 58 more
+01-Jun-2022 14:12:02.998 INFO [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has finished in [170] ms
+01-Jun-2022 14:12:10.130 INFO [http-nio-8081-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+01-Jun-2022 14:12:10.140 INFO [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml]
+01-Jun-2022 14:12:10.140 WARNING [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+01-Jun-2022 14:12:10.170 INFO [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication1.xml] has finished in [30] ms
+01-Jun-2022 14:12:10.180 INFO [http-nio-8081-exec-11] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+01-Jun-2022 14:20:21.962 INFO [http-nio-8081-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication2.xml]
+01-Jun-2022 14:20:21.962 WARNING [http-nio-8081-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication2] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication2.xml] has been ignored
+01-Jun-2022 14:20:21.993 INFO [http-nio-8081-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication2.xml] has finished in [31] ms
+01-Jun-2022 14:20:21.993 INFO [http-nio-8081-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication2]] after start() had already been called. The second call will be ignored.
+01-Jun-2022 14:35:14.906 INFO [http-nio-8081-exec-17] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+01-Jun-2022 14:49:43.690 INFO [http-nio-8081-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication3.xml]
+01-Jun-2022 14:49:43.690 WARNING [http-nio-8081-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication3] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication3.xml] has been ignored
+01-Jun-2022 14:49:43.720 INFO [http-nio-8081-exec-34] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication3.xml] has finished in [30] ms
+01-Jun-2022 14:49:43.730 INFO [http-nio-8081-exec-35] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication3]] after start() had already been called. The second call will be ignored.
+01-Jun-2022 15:14:20.061 INFO [http-nio-8081-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication4.xml]
+01-Jun-2022 15:14:20.061 WARNING [http-nio-8081-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication4.xml] has been ignored
+01-Jun-2022 15:14:20.101 INFO [http-nio-8081-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication4.xml] has finished in [40] ms
+01-Jun-2022 15:14:20.101 INFO [http-nio-8081-exec-32] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]] after start() had already been called. The second call will be ignored.
+01-Jun-2022 15:15:05.165 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApplication4]
+01-Jun-2022 15:15:05.165 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication4] has started
+01-Jun-2022 15:15:05.215 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication4] is completed
+01-Jun-2022 15:15:15.225 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/WebApplication4]
+01-Jun-2022 15:15:15.265 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/WebApplication4] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1542)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1505)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1744)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:316)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [servletconfig]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3257)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5084)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+01-Jun-2022 15:15:53.945 INFO [http-nio-8081-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication4]
+01-Jun-2022 15:15:53.955 INFO [http-nio-8081-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication4.xml]
+01-Jun-2022 15:15:53.955 WARNING [http-nio-8081-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication4] in deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication4.xml] has been ignored
+01-Jun-2022 15:15:53.995 INFO [http-nio-8081-exec-30] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\vignan\Downloads\apache-tomcat-10.0.21-windows-x64\apache-tomcat-10.0.21\conf\Catalina\localhost\WebApplication4.xml] has finished in [30] ms
+01-Jun-2022 15:15:53.995 INFO [http-nio-8081-exec-26] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]] after start() had already been called. The second call will be ignored.
