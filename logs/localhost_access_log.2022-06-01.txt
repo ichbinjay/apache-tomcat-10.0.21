@@ -366,3 +366,13 @@
 127.0.0.1 - - [01/Jun/2022:15:15:57 +0530] "GET /favicon.ico HTTP/1.1" 200 21630
 127.0.0.1 - - [01/Jun/2022:15:15:58 +0530] "GET /WebApplication4/servletconfig? HTTP/1.1" 200 28
 127.0.0.1 - - [01/Jun/2022:15:15:58 +0530] "GET /favicon.ico HTTP/1.1" 200 8192
+127.0.0.1 - - [01/Jun/2022:15:26:27 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [01/Jun/2022:15:26:27 +0530] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [01/Jun/2022:15:26:27 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [01/Jun/2022:15:26:27 +0530] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [01/Jun/2022:15:26:27 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [01/Jun/2022:15:26:27 +0530] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - admin [01/Jun/2022:15:26:27 +0530] "GET /manager/text/list HTTP/1.1" 200 747
+127.0.0.1 - admin [01/Jun/2022:15:26:28 +0530] "GET /manager/text/reload?path=/WebApplication0 HTTP/1.1" 200 73
+127.0.0.1 - - [01/Jun/2022:15:26:28 +0530] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [01/Jun/2022:15:26:28 +0530] "GET /manager/text/ HTTP/1.1" 200 39
